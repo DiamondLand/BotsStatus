@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Статус бота</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Проверка статуса бота</h1>
+    <div class="select-container">
+        <select id="platformSelect">
+            <option value="telegram">Telegram</option>
+            <option value="discord">Discord</option>
+        </select>
+    </div>
+    <div id="status">Загрузка...</div>
+    <div id="error"></div>
+    <div id="log" style="margin-top: 20px; max-height: 200px; overflow-y: auto; background-color: #1e1e1e; padding: 10px; border-radius: 5px;"></div>
+    <script src="script.js"></script>
+</body>
+</html>

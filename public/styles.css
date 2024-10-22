@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+}
+
+.select-container {
+    margin: 20px 0;
+}
+
+select {
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#status {
+    font-size: 24px;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    transition: border-color 0.3s; /* Плавный переход цвета рамки */
+}
+
+.error {
+    color: #ff3d00;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+/* Стиль для успешного статуса */
+.status-online {
+    border-color: green; /* Цвет рамки, если бот онлайн */
+    animation: pulse 1.5s infinite; /* Анимация пульсации */
+}
+
+@keyframes pulse {
+    0% {
+        border-color: green;
+        box-shadow: 0 0 10px green;
+    }
+    50% {
+        border-color: lightgreen;
+        box-shadow: 0 0 20px lightgreen;
+    }
+    100% {
+        border-color: green;
+        box-shadow: 0 0 10px green;
+    }
+}

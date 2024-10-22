@@ -1,0 +1,17 @@
+{
+  "name": "tg-bot-status",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "ini": "^1.x.x",
+    "node-fetch": "^3.x.x",
+    "sqlite3": "^5.1.7"
+  }
+}
